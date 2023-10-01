@@ -78,7 +78,7 @@
 }
 
 .how-we-work {
-  padding: 100px 0;
+  padding: 100px;
   text-align: center;
 }
 
@@ -104,81 +104,28 @@
 }
 
 .how-we-work-item-1::after, .how-we-work-item-3::after{
-  content: url('/images/icons/arrow-right.svg');
+  content: url('../../images/icons/arrow-right.svg');
   display: inline-block;
   width: 60px;
   position: absolute;
-  left: 120%;
+  left: 100%;
   top: 33%;
   transform: rotate(37deg);
 }
 
 .how-we-work-item-2::after, .how-we-work-item-4::after{
-  content: url('/images/icons/arrow-right.svg');
+  content: url('../../images/icons/arrow-right.svg');
   display: inline-block;
   width: 60px;
   position: absolute;
-  left: 104%;
-  top: 20%;
+  left: 100%;
+  top: 11%;
   transform: scale(1, -1) rotate(36deg);
 }
 
 
 .how-we-work li{
   position: relative;
-}
-
-  
-
-
-.footer {
-    background-color: #1f3e5c;
-    width: 100%;
-    margin-right: 30px;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 140px 200px;
-    color: #FFFFFF66;
-    gap: 140px;
-    font-weight: 400;
-    line-height: 1.74;
-    position: relative;
-  }
-
-.footer-item h3{
-  color: white;
-  font-weight: 500;
-  font-size: 16px;
-}
-
-.footer-item ul{
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-  margin-top: 10px;
-}
-
-.footer-item a:hover{
-  color: white;
-}
-.btn-top {
-  display: inline-block;
-  padding: 9px 12px;
-  background: rgb(234, 134, 27);
-  height: 42px;
-  position: absolute;
-  bottom: 140px;
-  right: 200px;
-
-}
-.btn-top img{
-  height: 22px;
-  display: inline-block;
-}
-
-.btn-top:hover{
-  background: #d07a1e;
 }
 
 /****************************************************/
