@@ -144,13 +144,13 @@ header {
  }
  
  .services-dropdown-content img {
-   max-width: 253px;
+   max-width: 234px;
    height: auto;
  }
  
  .submenu-container {
    display: flex;
-   
+   align-items: flex-start;
  }
  
  .submenu-list-container {
@@ -160,7 +160,7 @@ header {
  .submenu-list {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   gap: 30px;
+   gap: 10px;
    list-style: none;
    padding: 0;
  }
@@ -182,19 +182,14 @@ header {
    margin-bottom: 8px;
    line-height: 1.3;
  }
- 
- .submenu-item p {
-   font-size: 13px;
-   height: 38px;
-   overflow: hidden;
- }
- 
+
  .submenu-item a {
    display: flex;
-   align-items: flex-start;
+   align-items: center;
  }
  .all-services {
-   margin-top: 20px;
+  display: inline-block;
+   margin-top: 40px;
  }
  
  .all-services span{
@@ -242,12 +237,22 @@ margin-top: 10px;
 color: white;
 }
 
-.viber img{
-width: 30px;
+.messenger-list {
+  margin-top: 30px;
 }
 
-.viber {
-margin-top: 20px;
+.messenger-list img{
+  width: 35px;
+}
+
+.messenger-list a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.messenger-list a:hover{
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-top {
