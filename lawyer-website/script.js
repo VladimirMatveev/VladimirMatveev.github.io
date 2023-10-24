@@ -1,9 +1,12 @@
-<script>
-    // Инициализация карты
-    var map = L.map('map').setView([51.505, -0.09], 13); // Установите координаты и масштаб
+const button = document.querySelector('#scrollToTopButton')
 
-    // Добавление слоя OSM
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-</script>
+function scrollToTop() {
+  const currentPosition = window.scrollY || document.documentElement.scrollTop
+
+  if (currentPosition > 0) {
+    window.requestAnimationFrame(scrollToTop)
+    window.scrollTo(0, currentPosition - currentPosition / 8)
+  }
+}
+
+button.addEventListener('click', scrollToTop)
