@@ -1,41 +1,39 @@
 .hero {
-  width: 100%;
-  height: 710px;
-  overflow: hidden;
   text-align: center;
   background: url(../../images/imgcon.jpg) no-repeat;
-  background-size: 100%;
-}
-
-.tagline-box {
-  padding: 210px 40px;
-  margin-left: 20px;
+  background-size: cover;
+  padding: 40px 0;
 }
 
 .tagline {
   color: white;
-  width: 50%;
-  height: 92%;
+  width: 750px;
+  height: 630px;
   display: flex;
   align-items: center;
   background-color: #1f3e5c;
-  margin: 30px;
 }
 
-.hero h1 {
+.tagline-content {
+  margin-left: 20px;
+}
+
+.tagline-content h1 {
   font-size: 28px;
   font-weight: 400;
   line-height: 1.3;
 }
 
-.tagline-box p {
+.tagline-content p {
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.7);
 }
 
-.tagline-box a {
+.tagline-content a {
   margin-top: 40px;
 }
+
+/* -----------Services--------- */
 
 .services {
   padding: 140px 0px;
@@ -133,31 +131,28 @@
 
 /****************************************************/
 .about-us {
-  font-weight: 400;
-  line-height: 1.74;
-  background-image: url(../../images/home-bg.webp);
-  background-size: 120% 100%;
+  background: #f8f9fd;
+  background-image: url('../../images/home-bg.webp');
   background-repeat: no-repeat;
-  width: 100%;
-  height: 710px;
-  overflow: hidden;
-  text-align: center;
+  background-size: 120%;
+  background-position: 30% 90%;
+  min-height: 645px;
+  padding: 130px 0;
 }
 
-.about-us h2 {
-  text-align: center;
-  padding: 20px;
-  margin-left: -290px;
-  margin-top: 135px;
+.about_us__content {
+  max-width: 800px;
+  margin-left: 100px;
 }
 
-.about-us__inner div {
-  font-weight: 500;
+.about_us__text {
   font-size: 17px;
-  margin-bottom: 50px;
-  width: 800px;
-  height: 600px;
-  margin-left: 170px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.about_us__text p:first-child {
+  margin-bottom: 30px;
 }
 
 /****************************************************/

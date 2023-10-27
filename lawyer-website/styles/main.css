@@ -8,6 +8,11 @@
   --text-color-light: rgb(163, 164, 168);
   --text-color-darker: rgb(45, 46, 51);
   --headers-color: #28333e;
+
+  --uk-breakpoint-s: 640px;
+  --uk-breakpoint-m: 960px;
+  --uk-breakpoint-l: 1200px;
+  --uk-breakpoint-xl: 1600px;
 }
 
 html {
@@ -278,4 +283,7 @@ header ul li {
 
 .btn-top:hover {
   background: #d07a1e;
+}
+
+@media (max-width: 960px) {
 }
