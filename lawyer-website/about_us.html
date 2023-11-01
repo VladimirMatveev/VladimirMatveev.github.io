@@ -1,91 +1,178 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/pages/index.css" />
     <link rel="stylesheet" href="./styles/pages/about_us.css" />
-    <script src="script.js" defer></script>
+
+    <script src="scripts/index.js" defer></script>
 
     <title>Юридическая группа "Партнер"</title>
   </head>
 
   <body>
     <header>
-      <div class="container header__inner">
-        <a href="index.html" class="logo"
-          >Юридическая группа <span class="sublogo">"Партнер"</span></a
-        >
-        <nav>
-          <ul class="nav-list">
-            <li><a href="index.html">Главная</a></li>
-            <li><a class="current-page" href="about_us.html">О нас</a></li>
-            <li class="services-dropdown">
-              <a href="services.html">Услуги</a>
+      <div class="header__inner">
+        <div class="container">
+          <div class="header__first-row">
+            <a href="index.html" class="logo">
+              <p class="logo__name">Партнер</p>
+              <p class="logo__text">Юридическая группа</p></a
+            >
 
-              <div class="services-dropdown-content">
-                <div class="submenu-container">
-                  <img src="./images/services.jpg" alt="Сервисы" />
-                  <div class="submenu-list-container">
-                    <ul class="submenu-list">
-                      <li class="submenu-item">
-                        <a href="/services/business_registration.html">
-                          <img src="./images/icons/chart.svg" alt="" />
-                          <div class="submenu-text">
-                            <h2>Регистрация бизнеса</h2>
-                          </div>
-                        </a>
-                      </li>
-                      <li class="submenu-item">
-                        <a href="">
-                          <img src="./images/icons/money.svg" alt="" />
-                          <div class="submenu-text">
-                            <h2>Юридическое обслуживание бизнеса</h2>
-                          </div>
-                        </a>
-                      </li>
-                      <li class="submenu-item">
-                        <a href="./services/business_registration.html">
-                          <img src="./images/icons/scales.svg" alt="" />
-                          <div class="submenu-text">
-                            <h2>Сопровождение и управление бизнесом</h2>
-                          </div>
-                        </a>
-                      </li>
-                      <li class="submenu-item">
-                        <a href="">
-                          <img src="./images/icons/planning.svg" alt="" />
-                          <div class="submenu-text">
-                            <h2>Ликвидация бизнеса</h2>
-                          </div>
-                        </a>
-                      </li>
-                      <li class="submenu-item">
-                        <a href="">
-                          <img src="./images/icons/chart.svg" alt="" />
-                          <div class="submenu-text">
-                            <h2>Банкротство бизнеса</h2>
-                          </div>
-                        </a>
-                      </li>
-                      <li class="submenu-item">
-                        <a href="">
-                          <img src="./images/icons/list.svg" alt="" />
-                          <div class="submenu-text">
-                            <h2>Аренда и продажа недвижимости</h2>
-                          </div>
-                        </a>
-                      </li>
-                    </ul>
-                    <a href="services.html" class="all-services">
-                      Все услуги <span>&#8594;</span></a
-                    >
+            <nav class="menu">
+              <button class="menu__btn">
+                <span></span><span></span><span></span>
+              </button>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="index.html"
+                    >Главная</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link current-page" href="about_us.html">О нас</a>
+                </li>
+                <li class="menu__item services-dropdown">
+                  <a class="menu__link" href="services.html">Услуги</a>
+
+                  <div class="services-dropdown-content">
+                    <div class="submenu-container">
+                      <img src="./images/services.jpg" alt="Сервисы" />
+                      <div class="submenu-list-container">
+                        <ul class="submenu-list">
+                          <li class="submenu-item">
+                            <a href="./services/business_registration.html">
+                              <img src="./images/icons/chart.svg" alt="" />
+                              <div class="submenu-text">
+                                Регистрация бизнеса
+                              </div>
+                            </a>
+                          </li>
+                          <li class="submenu-item">
+                            <a href="./services/legal_services.html">
+                              <img src="./images/icons/money.svg" alt="" />
+                              <div class="submenu-text">
+                                Юридическое обслуживание бизнеса
+                              </div>
+                            </a>
+                          </li>
+                          <li class="submenu-item">
+                            <a href="./services/support_management.html">
+                              <img src="./images/icons/scales.svg" alt="" />
+                              <div class="submenu-text">
+                                Сопровождение и управление бизнесом
+                              </div>
+                            </a>
+                          </li>
+                          <li class="submenu-item">
+                            <a href="./services/business_liquidation.html">
+                              <img src="./images/icons/planning.svg" alt="" />
+                              <div class="submenu-text">Ликвидация бизнеса</div>
+                            </a>
+                          </li>
+                          <li class="submenu-item">
+                            <a href="./services/business_bankruptcy.html">
+                              <img src="./images/icons/chart.svg" alt="" />
+                              <div class="submenu-text">
+                                Банкротство бизнеса
+                              </div>
+                            </a>
+                          </li>
+                          <li class="submenu-item">
+                            <a href="./services/rent_and_sale.html">
+                              <img src="./images/icons/list.svg" alt="" />
+                              <div class="submenu-text">
+                                Аренда и продажа недвижимости
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                        <a href="services.html" class="all-services">
+                          Все услуги <span>&#8594;</span></a
+                        >
+                      </div>
+                    </div>
                   </div>
-                </div>
+                </li>
+                <li class="menu__item">
+                  <a class="btn menu__link" href="contact.html">Контакты</a>
+                  <div class="menu__messenger-list">
+                    <div
+                      class="header__contacts-item header__contacts-messenger-list"
+                    >
+                      <a
+                        class="viber header__contacts-messenger"
+                        href="viber://chat?number=%2B375447194414"
+                        ><img src="./images/icons/viber.svg"
+                      /></a>
+                      <a
+                        class="whatsapp header__contacts-messenger"
+                        href="https://wa.me/375447194414"
+                        ><img src="./images/icons/whatsapp.svg"
+                      /></a>
+                      <a
+                        class="telegram header__contacts-messenger"
+                        href="https://t.me/+375447194414"
+                        ><img src="./images/icons/telegram.svg"
+                      /></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__inner-dark">
+        <div class="container">
+          <div class="header__second-row">
+            <div class="header__contacts">
+              <div class="header__contacts-item header__contacts-item--small">
+                <p class="header__contacts-address">
+                  212030, г. Могилев, пер. Комиссариатский, 10, офис 1/1
+                </p>
+                <p class="header__contacts-working-hours">
+                  Пн - Пт с 10.00 до 18.00
+                </p>
               </div>
-            </li>
-            <li><a class="btn" href="contact.html">Контакты</a></li>
-          </ul>
-        </nav>
+
+              <div class="header__contacts-item">
+                <p class="header__contacts-phone accent">
+                  <a href="tel:+375447194414">+375 (44) 719 44 14</a>
+                </p>
+                <p class="header__contacts-email accent">
+                  <a class="email" href="mailto:kolesnickov.marat@yandex.ru"
+                    >kolesnickov.marat@yandex.ru</a
+                  >
+                </p>
+              </div>
+
+              <div
+                class="header__contacts-item header__contacts-messenger-list"
+              >
+                <a
+                  class="viber header__contacts-messenger"
+                  href="viber://chat?number=%2B375447194414"
+                  ><img src="./images/icons/viber.svg"
+                /></a>
+                <a
+                  class="whatsapp header__contacts-messenger"
+                  href="https://wa.me/375447194414"
+                  ><img src="./images/icons/whatsapp.svg"
+                /></a>
+                <a
+                  class="telegram header__contacts-messenger"
+                  href="https://t.me/+375447194414"
+                  ><img src="./images/icons/telegram.svg"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 

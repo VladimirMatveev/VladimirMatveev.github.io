@@ -234,6 +234,10 @@ header .logo {
   transform-origin: center left;
 }
 
+.menu__messenger-list {
+  display: none;
+}
+
 /* ----------header contacts --------- */
 
 .header__inner-dark {
@@ -447,7 +451,7 @@ header .logo {
   }
 
   .menu__list.menu--open {
-    max-height: 500px;
+    max-height: 600px;
   }
 
   .menu__item {
@@ -490,7 +494,7 @@ header .logo {
 
   .submenu-list a {
     color: #797a7d;
-    line-height: 1.8;
+    padding: 6px 0;
   }
 
   .all-services {
@@ -507,13 +511,20 @@ header .logo {
 }
 
 @media (max-width: 670px) {
+  .menu__messenger-list {
+    display: block;
+    margin-top: 20px;
+  }
+  .menu__messenger-list .header__contacts-messenger {
+    margin-left: 8px;
+  }
   .header__contacts {
     flex-direction: column;
     text-align: center;
     gap: 10px 0;
   }
 
-  .header__contacts-messenger-list {
+  .header__contacts .header__contacts-messenger-list {
     display: none;
   }
 
