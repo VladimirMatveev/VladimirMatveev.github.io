@@ -120,7 +120,7 @@ header .logo {
 .menu__btn {
   position: absolute;
   top: 30px;
-  right: 15px;
+  right: 0;
   display: none;
   flex-direction: column;
   justify-content: space-between;
