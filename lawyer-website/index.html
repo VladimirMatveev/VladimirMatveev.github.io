@@ -20,12 +20,21 @@
               <p class="logo__text">Юридическая группа</p></a
             >
 
-            <nav>
-              <ul class="nav-list">
-                <li><a class="current-page" href="index.html">Главная</a></li>
-                <li><a href="about_us.html">О нас</a></li>
-                <li class="services-dropdown">
-                  <a href="services.html">Услуги</a>
+            <nav class="menu">
+              <button class="menu__btn">
+                <span></span><span></span><span></span>
+              </button>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link current-page" href="index.html"
+                    >Главная</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="about_us.html">О нас</a>
+                </li>
+                <li class="menu__item services-dropdown">
+                  <a class="menu__link" href="services.html">Услуги</a>
 
                   <div class="services-dropdown-content">
                     <div class="submenu-container">
@@ -36,7 +45,7 @@
                             <a href="/services/business_registration.html">
                               <img src="./images/icons/chart.svg" alt="" />
                               <div class="submenu-text">
-                                <h2>Регистрация бизнеса</h2>
+                                Регистрация бизнеса
                               </div>
                             </a>
                           </li>
@@ -44,7 +53,7 @@
                             <a href="">
                               <img src="./images/icons/money.svg" alt="" />
                               <div class="submenu-text">
-                                <h2>Юридическое обслуживание бизнеса</h2>
+                                Юридическое обслуживание бизнеса
                               </div>
                             </a>
                           </li>
@@ -52,23 +61,21 @@
                             <a href="./services/business_registration.html">
                               <img src="./images/icons/scales.svg" alt="" />
                               <div class="submenu-text">
-                                <h2>Сопровождение и управление бизнесом</h2>
+                                Сопровождение и управление бизнесом
                               </div>
                             </a>
                           </li>
                           <li class="submenu-item">
                             <a href="">
                               <img src="./images/icons/planning.svg" alt="" />
-                              <div class="submenu-text">
-                                <h2>Ликвидация бизнеса</h2>
-                              </div>
+                              <div class="submenu-text">Ликвидация бизнеса</div>
                             </a>
                           </li>
                           <li class="submenu-item">
                             <a href="">
                               <img src="./images/icons/chart.svg" alt="" />
                               <div class="submenu-text">
-                                <h2>Банкротство бизнеса</h2>
+                                Банкротство бизнеса
                               </div>
                             </a>
                           </li>
@@ -76,7 +83,7 @@
                             <a href="">
                               <img src="./images/icons/list.svg" alt="" />
                               <div class="submenu-text">
-                                <h2>Аренда и продажа недвижимости</h2>
+                                Аренда и продажа недвижимости
                               </div>
                             </a>
                           </li>
@@ -88,7 +95,9 @@
                     </div>
                   </div>
                 </li>
-                <li><a href="contact.html">Контакты</a></li>
+                <li class="menu__item">
+                  <a class="btn menu__link" href="contact.html">Контакты</a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -99,7 +108,7 @@
         <div class="container">
           <div class="header__second-row">
             <div class="header__contacts">
-              <div class="header__contacts-item">
+              <div class="header__contacts-item header__contacts-item--small">
                 <p class="header__contacts-address">
                   212030, г. Могилев, пер. Комиссариатский, 10, офис 1/1
                 </p>
@@ -119,7 +128,9 @@
                 </p>
               </div>
 
-              <div class="header__contacts-item">
+              <div
+                class="header__contacts-item header__contacts-messenger-list"
+              >
                 <a
                   class="viber header__contacts-messenger"
                   href="viber://chat?number=%2B375447194414"

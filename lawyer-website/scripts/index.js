@@ -1,3 +1,13 @@
+const menuBtn = document.querySelector('.menu__btn')
+const menuList = document.querySelector('.menu__list')
+
+menuBtn.addEventListener('click', () => {
+  menuList.classList.toggle('menu--open')
+  menuBtn.classList.toggle('menu--open')
+})
+
+// --------------Scroll To Top-----------
+
 const button = document.querySelector('#scrollToTopButton')
 
 function scrollToTop() {
