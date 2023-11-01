@@ -4,13 +4,14 @@
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/pages/index.css" />
     <link rel="stylesheet" href="./styles/pages/about_us.css" />
+    <script src="script.js" defer></script>
 
     <title>Юридическая группа "Партнер"</title>
   </head>
 
   <body>
-    <div class="container">
-      <header id="top">
+    <header>
+      <div class="container header__inner">
         <a href="index.html" class="logo"
           >Юридическая группа <span class="sublogo">"Партнер"</span></a
         >
@@ -75,19 +76,21 @@
                         </a>
                       </li>
                     </ul>
-                    <a href="services.html" class="all-services"> Все услуги <span>&#8594;</span></a>
-                    
+                    <a href="services.html" class="all-services">
+                      Все услуги <span>&#8594;</span></a
+                    >
                   </div>
                 </div>
               </div>
             </li>
-    
             <li><a class="btn" href="contact.html">Контакты</a></li>
           </ul>
         </nav>
-      </header>
+      </div>
+    </header>
 
-      <section class="hero">
+      <section class="hero about-us__hero">
+        <div class="container">
         <div class="tagline">
           <div class="tagline-box">
             <h1>
@@ -98,12 +101,12 @@
             <a class="btn btn-light" href="@">Наши услуги</a>
           </div>
         </div>
+        </div>
       </section>
       
-      <section class="about-us__text">
+      <section class="about-us__text container">
             <div class="about-us__title">
               <h3>О нашей компании</h3>
-              <img src="./images/handshake.jpg">
             </div>
             <div class="contact-us__item">
               <p>Наша команда квалифицированных специалистов, обладающих
@@ -124,52 +127,62 @@
       </section>
 
       <footer class="footer">
-        <div class="footer-item">
-          <h3>Меню</h3>
-          <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">О нас</a></li>
-            <li><a href="contact.html">Контакты</a></li>
-            <li><a href="#">Услуги</a></li>
-          </ul>
+        <div class="container">
+        <div class="footer__inner">
+          <div class="footer-item">
+            <h3>Меню</h3>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="about_us.html">О нас</a></li>
+              <li><a href="contact.html">Контакты</a></li>
+              <li><a href="services.html">Услуги</a></li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h3>Все услуги</h3>
+            <ul>
+              <li><a href="#">Регистрация бизнеса</a></li>
+              <li><a href="#">Сопровождение и управление бизнесом</a></li>
+              <li><a href="#">Ликвидация бизнеса</a></li>
+              <li><a href="#">Банкротство</a></li>
+              <li><a href="#">Юридическое обслуживание бизнеса</a></li>
+              <li><a href="#">Аренда и продажа недвижимости</a></li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h3>Контакты</h3>
+            <ul>
+              <li><h2>Могилев</h2></li>
+              <li>212030, г. Могилев, пер. Комиссариатский, 10, офис 1/1</li>
+              <li>Пн - Пт с 10.00 до 18.00</li>
+              <li class="accent">
+                <a href="tel:+375447194414">+375 (44) 719 44 14</a>
+              </li>
+              <li class="accent">
+                <a class="email" href="mailto:kolesnickov.marat@yandex.ru"
+                  >kolesnickov.marat@yandex.ru</a
+                >
+              </li>
+              <li class="messenger-list">
+                <a class="viber" href="viber://chat?number=%2B375447194414"
+                  ><img src="./images/icons/viber.svg"
+                /></a>
+                <a class="whatsapp" href="whatsapp://send?phone=+375447194414"
+                  ><img src="./images/icons/whatsapp.svg"
+                /></a>
+                <a class="telegram" href="tg://resolve?domain=имя_пользователя"
+                  ><img src="./images/icons/telegram.svg"
+                /></a>
+              </li>
+            </ul>
+          </div>
+  
+          <button id="scrollToTopButton" class="btn-top">
+            <img src="./images/icons/arrow-up.svg" />
+          </button>
         </div>
-        <div class="footer-item">
-          <h3>Все услуги</h3>
-          <ul>
-            <li><a href="#">Регистрация  бизнеса</a></li>
-            <li><a href="#">Сопровождение и управление бизнесом</a></li>
-            <li><a href="#">Ликвидация бизнеса</a></li>
-            <li><a href="#">Банкротство</a></li>
-            <li><a href="#">Юридическое обслуживание бизнеса</a></li>
-            <li><a href="#">Аренда и продажа недвижимости</a></li>
-          </ul>
-        </div>
-        <div class="footer-item">
-          <h3>Контакты</h3>
-          <ul>
-            <li><h2>Могилев</h2></li>
-            <li>212030, г. Могилев, пер. Комиссариатский, 10, офис 1/1</p></li>
-            <li>Пн - Пт  с 10.00 до 18.00</li>
-            <li class="accent"><a href="tel:+375447194414">+375 (44) 719 44 14</a></li>
-            <li class="accent"><a class="email" href="mailto:kolesnickov.marat@yandex.ru">kolesnickov.marat@yandex.ru</a></li>
-            <li class="messenger-list">
-            <a class="viber" href="viber://chat?number=%2B375447194414"><img src="./images/icons/viber.svg"></a>       
-            <a class="whatsapp href="whatsapp://send?phone=+375447194414"><img src="./images/icons/whatsapp.svg"></a>  
-            <a class="telegram" href="tg://resolve?domain=имя_пользователя"><img src="./images/icons/telegram.svg"></a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-item">
-          <h3>What We Offer</h3>
-          <p>
-            Lorem ipsum dolor sit amet consetetur sadipscing elitr diam nonumy
-            eirmod.
-          </p>
-        </div>
-        
-        <a class="btn-top" href="#top"><img src="./images/icons/arrow-up.svg"/></a>
-      </а>
+      </div>
       </footer>
-    </div>
+
   </body>
 </html>
