@@ -7,6 +7,57 @@
     background-size: 100%;
     padding: 140px 0px;
   }
+
+  .hero-s__bankruptcy {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    text-align: center;
+    background: url(../../images/business_bankruptcy.jpg) no-repeat;
+    background-size: 100%;
+    padding: 140px 0px;
+  }
+
+  .hero-s__liquidation {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    text-align: center;
+    background: url(../../images/business_liquidation.jpg) no-repeat;
+    background-size: 100%;
+    padding: 140px 0px;
+  }
+
+  .hero-s__legal_services {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    text-align: center;
+    background: url(../../images/legal_services.jpg) no-repeat;
+    background-size: 100%;
+    padding: 140px 0px;
+  }
+
+  .hero-s__rent_and_sale {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    text-align: center;
+    background: url(../../images/rent_and_sale.jpg) no-repeat;
+    background-size: 100%;
+    padding: 140px 0px;
+  }
+
+  
+  .hero-s__support_management {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    text-align: center;
+    background: url(../../images/support_management.jpg) no-repeat;
+    background-size: 100%;
+    padding: 140px 0px;
+  }
   
   .tagline-box-s {
     padding: 540px 40px;
@@ -57,4 +108,64 @@
     display: inline-block;
   }
 
-  
+
+  @media (max-width: 960px) {
+  .tagline-s {
+    width: 70%;
+  }
+
+  }
+
+  @media (max-width: 670px) {
+    .tagline-s {
+      width: 80%;
+      height: 80%;
+    }
+
+    .tagline-box-s h1 {
+      font-size: 18px;
+    }
+
+    .tagline-box-s p {
+      font-size: 12px;
+    }
+
+    .tagline-box-s {
+        padding: 0;
+    }
+    .hero-s{
+      background-size: 200%;
+    }
+    .hero-s__bankruptcy{
+      background-size: 200%;
+    }
+
+    .hero-s__legal_services{
+      background-size: 200%;
+    }
+
+    .hero-s__liquidation{
+      background-size: 200%;
+    }
+
+    .hero-s__rent_and_sale{
+      background-size: 200%;
+    }
+
+    .hero-s__support_management{
+      background-size: 200%;
+    }
+
+    .info {
+      padding: 30px;
+  }
+
+    .info .info__text{
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .info p {
+      font-size: 14px;
+    }
+  }
