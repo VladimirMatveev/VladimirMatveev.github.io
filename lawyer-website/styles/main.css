@@ -508,6 +508,8 @@ header .logo {
   .header__contacts-messenger {
     margin: 0;
   }
+
+
 }
 
 @media (max-width: 670px) {
@@ -530,5 +532,17 @@ header .logo {
 
   .header__contacts-phone::before {
     left: 8px;
+  }
+
+  .footer__inner {
+    margin-right: 0px;
+    padding: 60px 100px;
+    gap: 50px;
+  }
+
+  .btn-top {
+    padding: 9px 12px;
+    bottom: 64px;
+    right: 5px;
   }
 }
