@@ -536,9 +536,12 @@ header .logo {
 
   .footer__inner {
     margin-right: 0px;
-    padding: 60px 100px;
+    padding: 60px 0;
     gap: 50px;
+    justify-content: center;
+    text-align: center;
   }
+
 
   .btn-top {
     padding: 9px 12px;
