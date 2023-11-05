@@ -60,8 +60,9 @@
   }
   
   .tagline-box-s {
-    padding: 540px 40px;
+    padding: 540px 90px;
     margin-left: 20px;
+    text-align: center;
   }
   
   .tagline-s {
@@ -93,6 +94,10 @@
   .info {
     padding: 80px;
   }
+
+ .info p {
+  font-weight: 500;
+ }
 
   .info img {
      width: 25px;
