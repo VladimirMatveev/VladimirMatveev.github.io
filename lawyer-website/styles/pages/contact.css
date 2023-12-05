@@ -72,6 +72,33 @@
 
 
 
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start; 
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.checkbox-wrapper a {
+  color: blue;
+}
+
+.checkbox-wrapper .check {
+  width: auto;
+  margin-top: 0;
+}
+
+label {
+  margin-left: 8px; 
+  font-size: 10px; 
+}
+
+ 
+
+
+
+
 @media (max-width: 960px) {
   .info__inner {
     padding: 80px 10px;
